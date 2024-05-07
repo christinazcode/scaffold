@@ -5,6 +5,10 @@ install:
 install-azure: 
 	pip install --upgrade pip &&\
 		pip install -r requirements_azure.txt
+
+install-gcp: 
+	pip install --upgrade pip &&\
+		pip install -r requirements_gcp.txt
 		
 format: 
 	black *.py
