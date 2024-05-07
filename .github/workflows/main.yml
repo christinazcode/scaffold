@@ -1,4 +1,4 @@
-name: Python app test with Github Actions
+name: Main build @3.12
 on: [push]
 jobs:
   build:
